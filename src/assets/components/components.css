@@ -1,0 +1,53 @@
+/* SinglePlayer.css */
+.SinglePlayerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #7af995 , #ff9abb); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+ 
+  .PlayerDetails {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .PlayerDetails h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+  }
+  
+  .PlayerDetails img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .PlayerInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .PlayerInfo p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .BackButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .BackButton:hover {
+    background-color: #45a049;
+  }

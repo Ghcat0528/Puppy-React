@@ -1,0 +1,146 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif; 
+  background: linear-gradient(135deg, #ff9abb, #7af995); 
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+
+.New {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.AllPlayers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin : 0 auto;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 15px;
+}
+
+
+h1 {
+  display: flex;
+ justify-content: center;
+  padding: 20px;
+  background-color: #6fffab;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header  {
+  font-size: 2.5rem;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  color: #2f2c2d;
+  text-shadow: 2px 2px 0px #fff, 4px 4px 0px #FF6FCF;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: #905e7c;
+}
+
+button {
+  background-color: #6fffab;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: #1e641e;
+}
+
+
+input[type="text"], select {
+  width: 40%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #6cd475;
+  border-radius: 10px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.Search {
+ 
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #FFC1E3;
+  box-shadow: 0 0 5px rgba(255, 20, 147, 0.8);
+}
+
+
+a {
+  text-decoration: none;
+  color: #FF6FCF;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  display: flex;
+  justify-content: center;
+}
+
+a:hover {
+  color: #6fffad;
+}
+
+
+.ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+li {
+  width: 50%;
+  background: #FFC1E3;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li:hover {
+  background: #FF6FCF;
+  color: white;
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #FF1493;
+  color: white;
+  border-radius: 15px;
+}
